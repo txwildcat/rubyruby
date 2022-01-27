@@ -14,3 +14,11 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+# shopping_list = [["milk", "eggs", "bacon"], ["beer", "cookies", "apples"]]
+# puts shopping_list
+
+shopping_listme = ["milk", "eggs", "bacon"]
+shopping_listyou = ["beer", "cookies", "apples"]
+new_ary = shopping_listme | shopping_listyou
+puts new_ary.sort
